@@ -48,7 +48,6 @@ UpdateDirectory calculates and stores hashes for files in both source and destin
 UpdateDirectory.exe "C:\MySourceFiles" "D:\Backup" --deep --missing:ask
 ```
 
-
-## Planed Features
+## Planned Features
 
 * **Section-Level Hashing (Optional):** Implements block-level hashing for efficient comparison of large files, minimizing unnecessary copying when only parts of a file have changed.
